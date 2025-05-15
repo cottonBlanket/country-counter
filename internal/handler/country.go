@@ -1,15 +1,17 @@
 package handler
 
-import "net/http"
+import (
+	"net/http"
+)
 
-func findCountries(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func createCountry(w http.ResponseWriter, r *http.Request) {
+func FindCountries(w http.ResponseWriter, r *http.Request) {
 
 }
 
-func updateCountry(w http.ResponseWriter, r *http.Request) {
+func CreateCountry(w http.ResponseWriter, r *http.Request) {
+
+}
+
+func UpdateCountry(w http.ResponseWriter, r *http.Request) {
 
 }
